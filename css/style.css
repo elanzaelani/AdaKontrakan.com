@@ -520,7 +520,7 @@ footer .link {
     /* Mobile */
 @media(max-width:450px) {
     html {
-        font-size: 40%;
+        font-size: 35%;
     }
     .hero{
         min-height: 100vh;
@@ -543,6 +543,15 @@ footer .link {
         height: 30%;
         bottom: 0;
         background: linear-gradient(0deg,rgb(204, 192, 186) 9%,rgba(236, 229, 229, 0) 50%);
+    }
+    .hero .content h2{
+        font-size: 16px;
+    }
+    .hero .content p{
+        font-size: 14px;
+    }
+    .hero .content a{
+        font-size: 16px;
     }
     .wa{
         background: #34ee4c;
